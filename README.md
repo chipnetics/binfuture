@@ -92,15 +92,15 @@ Flag breakdown:
 When executed you will get something like below (with your actual balances, of course).
 
 ```
-[Leverage]	            1
-[Margin Type]	        ISOLATED
-[BNB Wallet Balance]	250.00
+[Leverage]            1
+[Margin Type]         ISOLATED
+[BNB Wallet Balance]  250.00
 
-[USDT Wallet Balance]	500.00
-[USDT Margin Balance]	500.00
-[SPEND AMT]	            100.00
-[CP]		            18.953
-[MAX QTY]	            5
+[USDT Wallet Balance] 500.00
+[USDT Margin Balance] 500.00
+[SPEND AMT]           100.00
+[CP]                  18.953
+[MAX QTY]             5
 
 Execute command (h for help):
 ```
@@ -178,14 +178,14 @@ Flag breakdown:
 ## Sample output and how to interpret
 
 ```
-1	40213	0.80	0.80
-2	2992	0.06	0.86
-3	1704	0.03	0.90
-4	1320	0.03	0.92
-5	1785	0.04	0.96
-6	886	    0.02	0.98
-7	15	    0.00	0.98
-100	1085	0.02	1.00
+1	40213   0.80	 0.80
+2	2992    0.06	 0.86
+3	1704    0.03	 0.90
+4	1320    0.03	 0.92
+5	1785    0.04	 0.96
+6	886     0.02	 0.98
+7	15      0.00	 0.98
+100	1085    0.02	 1.00
 ```
 This output indicates:
 * 80% of the simulations triggered take-profit in the first hour
