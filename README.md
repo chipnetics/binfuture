@@ -63,8 +63,8 @@ For Windows users, if you want to pass optional command line arguments to an exe
 
 ```
 Options:
-  -s, --short <string>      short trading-pair [non-interacive mode]
-  -l, --long <string>       long trading-pair [non-interacive mode]
+  -s, --short <string>      short trading-pair [non-interactive mode]
+  -l, --long <string>       long trading-pair [non-interactive mode]
   -p, --pair <string>       trading-pair [interactive mode]
   -d, --stoploss <string>   stop loss (as %)
   -u, --takeprofit <string>
@@ -132,7 +132,7 @@ Conversely, if you went short; there will be:
 * Buy order for your take profit.
 
 ## Built in OCO (one cancels the other)
-The utility is unique in that if you take-profit or stop-loss is triggered, it will automatically cancel the other open order (called OCO - one cancels other).  This is a natively built in feature in Spot trading on Binance; but does not exist in Futures trading by default.  However this tool acts a watchdog, and will cancel the other order if one closes.
+The utility is unique in that if you take-profit or stop-loss is triggered, it will automatically cancel the other open order (called OCO - one cancels other).  This is a natively built in feature in Spot trading on Binance; but does not exist in Futures trading by default.  However this tool acts as a watchdog, and will cancel the other order if one closes.
 
 ## Close position
 
@@ -158,8 +158,7 @@ Options:
   -m, --minutes <int>       number of minutes [max 1000]
   -i, --iterations <int>    number of iterations
   -d, --stoploss <string>   stop loss (as %)
-  -u, --takeprofit <string>
-                            take profit (as %)
+  -u, --takeprofit <string> take profit (as %)
   -h, --help                display this help and exit
   --version                 output version information and exit
 ```
@@ -232,5 +231,5 @@ ______
 
 ## Contributions, PR, Roadmap
 
-Contributions and pull requests are welcome and encouraged.  Further development by myself will be fairly minimal and not follow any predictable trajectory - just like crypo. =]
+Contributions and pull requests are welcome and encouraged.  Further development by myself will be fairly minimal and not follow any predictable trajectory - just like crypto. =]
 
